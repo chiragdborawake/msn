@@ -1,0 +1,13 @@
+.headerTitle{
+    border:solid blue 2px;
+    text-align: center;
+    padding: 5px;
+    background-color: #e2ebef;
+    color: blue;
+} 
+.headerTitle span:first-child{
+    float: left;
+}
+.headerTitle span:last-child{
+    float: right;
+}

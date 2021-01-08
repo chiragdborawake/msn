@@ -1,0 +1,43 @@
+.searchDiv{
+    position: relative;
+    background-color:#6e6cb9;
+    border: solid blue 2px;
+}
+.searchDiv > div{
+    display: inline-block;
+}
+.msnDiv {
+    width:25%;
+    color:white;
+    font-size: 50px;
+}
+.rss{
+    position: absolute;
+    text-align: right;
+    width: 24%;
+    color: white;
+    top:10px;
+    right: 10px;
+}
+.searchBox{
+    width: 50%;
+}
+.searchBox div:first-child{
+    color: white;
+} 
+.searchBox div:last-child{
+    color: yellow;
+}
+.searchBox div {
+    padding-top: 10px;
+}
+.searchBox input{
+    width:90%;
+    height:25px;
+    display:inline-block;
+  }
+.searchBox button{
+    width:30px;
+    height:30px;
+    display:inline-block;
+  }

@@ -1,0 +1,16 @@
+.fields{
+    display: inline-flex;
+    width: 100%;
+    border:solid lightblue 2px ;
+
+    box-sizing: border-box;
+}
+.field{
+    display:inline-block;
+    color: blue;
+    flex: 1 100%;
+}
+.field ul {
+    list-style-type: none;
+
+}

@@ -1,0 +1,10 @@
+img {
+    float: left;
+}
+.body-child{
+    flex: 1 100%;
+}
+.msnbc-title{
+    padding:5px;
+    background-color: lightblue;
+}

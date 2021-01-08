@@ -1,0 +1,19 @@
+.options{
+    border: solid blue 2px;
+    background-color: #e2ebef;
+}
+.options div{
+    display:inline-block;
+    line-height: 25px;
+    color: blue;
+}
+
+.options div:nth-child(1){
+    width:60%
+}
+.options div:nth-child(2){
+    width:20%;
+}
+.options div:nth-child(3){
+    width: 19%;
+}

@@ -1,0 +1,22 @@
+.msn-body{
+    display: inline-flex;
+    width: 100%;
+    margin-top: 10px;
+}
+.msn-body-div
+{
+    border:solid black 1px;
+    flex:1 100%;
+    margin: 5px;
+}
+
+.msn-body > div:first-child{
+    background-color: black;
+}
+
+.msn-body > div:last-child{
+    padding: 10px;
+}
+.msn-body > div:nth-child(2n){
+    color: blue;
+}
